@@ -1,0 +1,80 @@
+*  Generated for: PrimeSim
+*  Design library name: mr_flipflop
+*  Design cell name: mr_flipflop_tb
+*  Design view name: schematic
+.lib 'saed32nm.lib' TT
+
+*Custom Compiler Version S-2021.09
+*Mon Feb 28 18:24:25 2022
+
+.global gnd!
+********************************************************************************
+* Library          : mr_flipflop
+* Cell             : mr_flipflop
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt mr_flipflop clk data a b gnd_1 master outpuit supply u1 u2
+xm43 outpuit b supply supply p105 w=1u l=0.03u nf=1 m=1
+xm40 a b supply supply p105 w=1u l=0.03u nf=1 m=1
+xm41 b a supply supply p105 w=1u l=0.03u nf=1 m=1
+xm37 u2 master supply supply p105 w=2u l=0.03u nf=1 m=1
+xm33 net39 clk u1 u1 p105 w=1u l=0.03u nf=1 m=1
+xm36 master u1 supply master p105 w=2u l=0.03u nf=1 m=1
+xm31 net39 data supply supply p105 w=1u l=0.03u nf=1 m=1
+xm32 master clk data data p105 w=1u l=0.03u nf=1 m=1
+xm29 outpuit b gnd_1 gnd_1 n105 w=0.1u l=0.03u nf=1 m=1
+xm42 a gnd_1 net93 net93 n105 w=2u l=0.03u nf=1 m=1
+xm25 b a gnd_1 gnd_1 n105 w=0.1u l=0.03u nf=1 m=1
+xm22 a b gnd_1 gnd_1 n105 w=0.1u l=0.03u nf=1 m=1
+xm39 u2 clk b b n105 w=2u l=0.03u nf=1 m=1
+xm38 u2 master gnd_1 gnd_1 n105 w=1u l=0.03u nf=1 m=1
+xm13 net47 clk gnd_1 gnd_1 n105 w=0.1u l=0.03u nf=1 m=1
+xm10 u1 master net47 net47 n105 w=0.1u l=0.03u nf=1 m=1
+xm1 net39 data gnd_1 gnd_1 n105 w=0.1u l=0.03u nf=1 m=1
+xm35 master u1 gnd_1 gnd_1 n105 w=1u l=0.03u nf=1 m=1
+.ends mr_flipflop
+
+********************************************************************************
+* Library          : mr_flipflop
+* Cell             : mr_flipflop_tb
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+xi0 net15 net17 net8 net1 gnd! net5 net11 net13 net4 net3 mr_flipflop
+c3 net11 gnd! c=1p
+v4 net13 gnd! dc=1.8
+v11 net17 gnd! dc=0 pulse ( 0 1 0.5n 0.5n 0.5n 2 4 )
+v10 net15 gnd! dc=0 pulse ( 0 1 0 0.5n 0.5n 2 4 )
+
+
+
+
+
+
+
+
+.tran '1' '20' name=tran
+
+.option primesim_remove_probe_prefix = 0
+.probe v(*) i(*) level=1
+.probe tran v(net11) v(net15) v(net17) isub(xi0.a) isub(xi0.b) isub(xi0.master)
++ isub(xi0.u1) isub(xi0.u2)
+
+.temp 25
+
+
+
+.option primesim_output=wdf
+
+
+.option parhier = LOCAL
+
+
+
+
+
+
+.end
