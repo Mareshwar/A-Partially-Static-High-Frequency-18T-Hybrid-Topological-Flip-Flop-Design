@@ -18,6 +18,8 @@ u2 will not deliver any data to slave latch, because transistors N6 and N7 are O
 4) Case: Data = 1 and Clock = 1: When CLK=1 and DATA=1 logic at the master node will be transferred to slave similar to the above case as CLK=1. When the master node output is at logic”1”, N7 behaves as a CB, as it passes strong”0” at node”b”. At the same time N6, behaves as an AT, as it passes weak”1” at node ”a”.
 ![image](https://user-images.githubusercontent.com/100616752/156107249-3670e57c-9a43-4d59-b652-742a9ddcc2e7.png)
 
+![mr_flipflop_mr_flipflop_schematic](https://user-images.githubusercontent.com/100616752/156109590-fa3998ca-6f50-4d3c-b1dd-a8be86f2b766.png)
+
 III. EXPERIMENTAL RESULTS
 ![image](https://user-images.githubusercontent.com/100616752/156107418-ede5402d-299c-4849-9535-40eb14073a8a.png)
 
