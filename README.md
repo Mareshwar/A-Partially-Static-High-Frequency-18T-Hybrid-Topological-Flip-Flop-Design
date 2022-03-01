@@ -37,9 +37,9 @@ V. REFERENCES
 [3].	J.-F. Lin, M.-H. Sheu, Y.-T. Hwang, C.-S. Wong, and M.-Y. Tsai, “Low power 19-transistor true single-phase clocking flip-flop design based on logic structure reduction schemes,” IEEE Transactions on Very Large Scale Integration (VLSI) Systems, vol. 25, no. 11, pp. 3033–3044, 2017.
 [4].	Alok Kumar Mishra , Urvashi Chopra D. Vaithiyanathan, “A Partially Static High Frequency 18T Hybrid Topological Flip-Flop Design for Low Power Application” IEEE TRANSACTIONS ON CIRCUITS AND SYSTEMS II: EXPRESS BRIEF 2021
 
-vi. Acknowledgemwnts
-thanks to alokkumar mishra after reading this article i am interested to slove this paper,it is more helpfull to slove.
+vi. Acknowledgemwnts:
+Thanks to alokkumar mishra after reading this article i am interested to slove this paper,it is more helpfull to slove.
 (Alok Kumar Mishra , Urvashi Chopra D. Vaithiyanathan, “A Partially Static High Frequency 18T Hybrid Topological Flip-Flop Design for Low Power Application” IEEE TRANSACTIONS ON CIRCUITS AND SYSTEMS II: EXPRESS BRIEF 2021)
-thanks chinmaya, kunal vsd, synopsys and iiih team to provide this hackathon
+Special thanks to chinmaya, kunal vsd, synopsys and iiih team to provide this hackathon
 
 
