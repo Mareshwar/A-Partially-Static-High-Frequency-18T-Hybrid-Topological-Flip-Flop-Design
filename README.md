@@ -1,0 +1,1 @@
+# A-Partially-Static-High-Frequency-18T-Hybrid-Topological-Flip-Flop-Design
