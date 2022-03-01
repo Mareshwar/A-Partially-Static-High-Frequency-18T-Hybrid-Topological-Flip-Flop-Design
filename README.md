@@ -39,7 +39,10 @@ V. REFERENCES
 
 vi. Acknowledgemwnts:
 Thanks to alokkumar mishra after reading this article i am interested to slove this paper,it is more helpfull to slove.
+
 (Alok Kumar Mishra , Urvashi Chopra D. Vaithiyanathan, “A Partially Static High Frequency 18T Hybrid Topological Flip-Flop Design for Low Power Application” IEEE TRANSACTIONS ON CIRCUITS AND SYSTEMS II: EXPRESS BRIEF 2021)
+
+
 Special thanks to chinmaya, kunal vsd, synopsys and iiih team to provide this hackathon
 
 
