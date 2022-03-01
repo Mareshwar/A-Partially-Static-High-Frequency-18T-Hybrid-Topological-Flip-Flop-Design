@@ -17,10 +17,9 @@ u2 will not deliver any data to slave latch, because transistors N6 and N7 are O
 3) Case : Data = 1 and Clock = 0: When CLK=0 and DATA=1, transistors N1, P2 and P4 will be in ON condition. That pulls node u1 and u2 to logic ”0”, while master node retains the data at logic ”1”. The slave will hold its previous value at the output node.
 4) Case: Data = 1 and Clock = 1: When CLK=1 and DATA=1 logic at the master node will be transferred to slave similar to the above case as CLK=1. When the master node output is at logic”1”, N7 behaves as a CB, as it passes strong”0” at node”b”. At the same time N6, behaves as an AT, as it passes weak”1” at node ”a”.
 ![image](https://user-images.githubusercontent.com/100616752/156107249-3670e57c-9a43-4d59-b652-742a9ddcc2e7.png)
-
-![mr_flipflop_mr_flipflop_schematic](https://user-images.githubusercontent.com/100616752/156109590-fa3998ca-6f50-4d3c-b1dd-a8be86f2b766.png)
-![mr_flipflop_mr_flipflop_symbol](https://user-images.githubusercontent.com/100616752/156109685-4f947403-0e78-4a9e-9d8a-a0edea94c362.png)
-![mr_flipflop_mr_flipflop_schematic](https://user-images.githubusercontent.com/100616752/156109691-074ee304-fde4-474f-a411-40a931b9de4e.png)
+![mr_flipflop_mr_flipflop_schematic](https://user-images.githubusercontent.com/100616752/156109836-3c8c5e61-6111-4584-8e4d-806de0b71a96.png)
+![mr_flipflop_mr_flipflop_symbol](https://user-images.githubusercontent.com/100616752/156109854-abbbdc2d-182b-42d8-89d8-3c6112db5552.png)
+![mr_flipflop_mr_flipflop_tb_schematic](https://user-images.githubusercontent.com/100616752/156109867-62e27d61-8388-49f1-964a-35102ac6cdae.png)
 ![5](https://user-images.githubusercontent.com/100616752/156109709-13929a53-cc0c-4eca-8e42-7970f4470c03.jpg)
 
 III. EXPERIMENTAL RESULTS
