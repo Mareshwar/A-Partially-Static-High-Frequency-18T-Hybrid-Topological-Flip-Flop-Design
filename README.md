@@ -19,6 +19,9 @@ u2 will not deliver any data to slave latch, because transistors N6 and N7 are O
 ![image](https://user-images.githubusercontent.com/100616752/156107249-3670e57c-9a43-4d59-b652-742a9ddcc2e7.png)
 
 ![mr_flipflop_mr_flipflop_schematic](https://user-images.githubusercontent.com/100616752/156109590-fa3998ca-6f50-4d3c-b1dd-a8be86f2b766.png)
+![mr_flipflop_mr_flipflop_symbol](https://user-images.githubusercontent.com/100616752/156109685-4f947403-0e78-4a9e-9d8a-a0edea94c362.png)
+![mr_flipflop_mr_flipflop_schematic](https://user-images.githubusercontent.com/100616752/156109691-074ee304-fde4-474f-a411-40a931b9de4e.png)
+![5](https://user-images.githubusercontent.com/100616752/156109709-13929a53-cc0c-4eca-8e42-7970f4470c03.jpg)
 
 III. EXPERIMENTAL RESULTS
 ![image](https://user-images.githubusercontent.com/100616752/156107418-ede5402d-299c-4849-9535-40eb14073a8a.png)
